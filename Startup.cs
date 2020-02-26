@@ -36,8 +36,8 @@ namespace column_charts
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-		     // Add your valid license key here.
-			Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your License Key");
+            // Add your valid license key here.
+	    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your License Key");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
